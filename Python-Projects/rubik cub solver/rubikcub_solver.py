@@ -12,7 +12,7 @@ class RubikSolverApp:
         self.faces = ['U', 'R', 'F', 'D', 'L', 'B']
         self.current_face_index = 0
         self.buttons = []
-        self.cube_state = [['W'] * 9 for _ in range(6)]  # Inițializăm fiecare față cu alb
+        self.cube_state = [['W'] * 9 for _ in range(6)]
 
         self.create_widgets()
 
